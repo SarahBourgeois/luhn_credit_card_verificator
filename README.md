@@ -1,8 +1,9 @@
 # LuhnCreditCardVerificator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/luhn_credit_card_verificator`. To experiment with that code, run `bin/console` for an interactive prompt.
+Verify the validity of a credit card thanks to the the most reliable Luhn algorithm !!
 
-TODO: Delete this and the text above, and describe your gem
+As the name of the package assumes, the verification is based on the Luhn algorithm. It allows you to check easier if numbers of a credit card are valid or not.
+
 
 ## Installation
 
@@ -31,9 +32,9 @@ __If result is `True` so the card is OK.__
 
 __If result is `False` so the card is WRONG__
 
-Note :
-You don't need to clean or remove special characters before to call the method with the client card in parameter.
-You can directly pass a string or a number.
+### Accepted input 
+- string 
+- numbers
 
 
 ## Development
