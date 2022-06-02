@@ -25,7 +25,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ----
 
-#### 1) Verify if the numbers of the credit card are ok
+#### :one: Verify if the numbers of the credit card are ok
 ```
 is_verif_card(credit_card_number)
 ```
@@ -41,7 +41,7 @@ puts result
 ```
 ---
 
-#### 2) Get the issuing bank information (AMEX, VISA or MASTERCARD)
+#### :two: Get the issuing bank information (AMEX, VISA or MASTERCARD)
 ```
 get_issuing_bank(credit_card_number)
 ```
@@ -58,7 +58,7 @@ puts result
 
 ---
 
-#### 2) Get the both (If credit card number are ok and issuing bank)
+#### :three: Get the both (If credit card number are ok and issuing bank)
 
 ```
 get_all_credit_card_information(credit_card_number);
