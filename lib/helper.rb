@@ -1,4 +1,5 @@
 class Helper
+
   def self.format_input(card)
     clean_card = card.gsub(/\s+/, "").split("");
     return clean_card.reverse!;
@@ -16,7 +17,5 @@ class Helper
     sum = card_sum + card_sum2;
     return sum % 10 == 0;
   end
-
-
 
 end

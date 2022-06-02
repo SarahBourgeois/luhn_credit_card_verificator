@@ -16,11 +16,16 @@ If bundler is not being used to manage dependencies, install the gem by executin
     $ gem install luhn_credit_card_verificator
 
 ## Usage
-3 functions you can use : 
 
+#### 3 functions you can use : 
 
+----
 
-
+#### 1) Verify if the numbers of the credit card are ok
+```
+is_verif_card(credit_card_number)
+```
+Example : 
 ```
 require 'luhn_credit_card_verificator';
 
@@ -29,6 +34,40 @@ result = LuhnCreditCardVerificator.is_verif_card(card_number_from_user);
 puts result
 
 >>  return true or false
+```
+---
+
+#### 2) Get the issuing bank information (AMEX, VISA or MASTERCARD)
+```
+get_issuing_bank(credit_card_number)
+```
+Example : 
+```
+require 'luhn_credit_card_verificator';
+
+card_number_from_user = 4556737586899855
+result = LuhnCreditCardVerificator.get_issuing_bank(card_number_from_user);
+puts result
+
+>>  return VISA 
+```
+
+---
+
+#### 2) Get the both (If credit card number are ok and issuing bank)
+
+```
+get_all_credit_card_information(credit_card_number);
+```
+Example :
+```
+require 'luhn_credit_card_verificator';
+
+card_number_from_user = 4556737586899855
+result = LuhnCreditCardVerificator.get_all_credit_card_information(card_number_from_user);
+puts result
+
+>>  return {valid => true, "bank" => VISA} 
 ```
 
 __If result is `True` so the card is OK.__
