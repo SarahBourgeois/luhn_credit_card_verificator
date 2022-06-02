@@ -7,7 +7,7 @@ As the name of the package assumes, the verification is based on the Luhn algori
 - get the issuing bank
 - or the both
 
-
+rubygem website : https://rubygems.org/gems/luhn_credit_card_verificator
 
 ## Installation
 
