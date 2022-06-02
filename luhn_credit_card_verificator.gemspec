@@ -5,7 +5,7 @@ require_relative "lib/luhn_credit_card_verificator/version"
 Gem::Specification.new do |spec|
   spec.name = "luhn_credit_card_verificator"
   spec.version = LuhnCreditCardVerificator::VERSION
-  spec.authors = ["sbourgeois"]
+  spec.authors = ["SarahBourgeois"]
   spec.email = ["sarah.bourgeois.bc@gmail.com"]
 
   spec.summary = "Verify the validity of a credit card thanks to the the most reliable luhn algorithm"
@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator.git"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator"
+  spec.metadata["source_code_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator.git"
   spec.metadata["changelog_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator/blob/develop/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
