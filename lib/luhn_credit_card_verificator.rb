@@ -7,8 +7,6 @@ module LuhnCreditCardVerificator
 
   class Error < StandardError; end
 
-  class LuhnCreditCardVerificator
-
     # verify is credit card numbers are ok
     def self.is_credit_card_valid(card_number)
       card_array_pair = Array.new;
@@ -38,5 +36,3 @@ module LuhnCreditCardVerificator
       end
     end
   end
-
-end
