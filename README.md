@@ -39,9 +39,14 @@ puts result
 
 >>  return true or false
 ```
+
+__If result is `True` so the card is OK.__
+
+__If result is `False` so the card is WRONG__
+
 ---
 
-#### :two: Get the issuing bank information (AMEX, VISA or MASTERCARD)
+#### :two: Get the issuing bank information 
 ```
 get_issuing_bank(credit_card_number)
 ```
@@ -55,6 +60,10 @@ puts result
 
 >>  return VISA 
 ```
+
+__For the moment only this issuing bank are manage :__
+
+`MASTERCARD`  or `VISA` or `AMERICAN EXPRESS` or `UNKNOWN` 
 
 ---
 
@@ -73,13 +82,11 @@ puts result
 
 >>  return {valid => true, "bank" => VISA} 
 ```
+__The return is a so a hash__: you've to manage the response to take the information thanks to the key/value.
 
-__If result is `True` so the card is OK.__
-
-__If result is `False` so the card is WRONG__
 
 ### Accepted input 
-- string 
+- string (with space or not)
 - numbers
 
 
@@ -95,4 +102,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/SarahB
 
 ## Code of Conduct
 
-Everyone interacting in the LuhnCreditCardVerificator project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/luhn_credit_card_verificator/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the LuhnCreditCardVerificator project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/SarahBourgeois/luhn_credit_card_verificator/blob/master/CODE_OF_CONDUCT.md).
