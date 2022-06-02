@@ -7,16 +7,14 @@ Gem::Specification.new do |spec|
   spec.version = LuhnCreditCardVerificator::VERSION
   spec.authors = ["SarahBourgeois"]
   spec.email = ["sarah.bourgeois.bc@gmail.com"]
-
   spec.summary = "Verify the validity of a credit card thanks to the the most reliable luhn algorithm"
   spec.description = "As the name of the package assumes, the verification is based on the Luhn algorithm. It allows you to check easier if numbers of a credit card are valid or not."
   spec.homepage = "https://github.com/SarahBourgeois/luhn_credit_card_verificator"
   spec.required_ruby_version = ">= 2.6.0"
   spec.license = 'MIT'
-  spec.metadata["allowed_push_host"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator.git"
-
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator.git"
+  spec.metadata["source_code_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator"
   spec.metadata["changelog_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator/blob/develop/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
