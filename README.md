@@ -15,8 +15,26 @@ If bundler is not being used to manage dependencies, install the gem by executin
     $ gem install luhn_credit_card_verificator
 
 ## Usage
+Very easy to use with the method : is_verif_card(numbers_of_credit_cards) : return a boolean
 
-TODO: Write usage instructions here
+```
+require 'luhn_credit_card_verificator';
+
+card_number = 6011000990139424
+result = luhn_credit_card_verificator.is_verif_card(card_number);
+puts result
+
+>>  return true or false
+```
+
+__If result is `True` so the card is OK.__
+
+__If result is `False` so the card is WRONG__
+
+Note :
+You don't need to clean or remove special characters before to call the method with the client card in parameter.
+You can directly pass a string or a number.
+
 
 ## Development
 
