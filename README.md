@@ -1,8 +1,12 @@
-# LuhnCreditCardVerificator
+# :credit_card: LuhnCreditCardVerificator :credit_card:
 
 Verify the validity of a credit card thanks to the the most reliable Luhn algorithm !!
 
-As the name of the package assumes, the verification is based on the Luhn algorithm. It allows you to check easier if numbers of a credit card are valid or not.
+As the name of the package assumes, the verification is based on the Luhn algorithm. It allows you to :
+- check easier if numbers of a credit card are valid or not.
+- get the issuing bank
+- or the both
+
 
 
 ## Installation
@@ -17,7 +21,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-#### 3 functions you can use : 
+###  You can use very easy 3 functions : 
 
 ----
 
