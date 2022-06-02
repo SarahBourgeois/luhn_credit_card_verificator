@@ -16,7 +16,10 @@ If bundler is not being used to manage dependencies, install the gem by executin
     $ gem install luhn_credit_card_verificator
 
 ## Usage
-Very easy to use with the method : is_verif_card(numbers_of_credit_cards) : return a boolean
+3 functions you can use : 
+
+
+
 
 ```
 require 'luhn_credit_card_verificator';
