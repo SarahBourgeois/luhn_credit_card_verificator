@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/SarahBourgeois/luhn_credit_card_verificator"
   spec.required_ruby_version = ">= 2.6.0"
   spec.license = 'MIT'
-  spec.metadata["allowed_push_host"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator"
+  spec.metadata["allowed_push_host"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator.git"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/SarahBourgeois/luhn_credit_card_verificator"
