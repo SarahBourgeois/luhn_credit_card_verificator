@@ -20,8 +20,8 @@ Very easy to use with the method : is_verif_card(numbers_of_credit_cards) : retu
 ```
 require 'luhn_credit_card_verificator';
 
-card_number = 6011000990139424
-result = luhn_credit_card_verificator.is_verif_card(card_number);
+card_number_from_user = 6011000990139424
+result = LuhnCreditCardVerificator.is_verif_card(card_number_from_user);
 puts result
 
 >>  return true or false
