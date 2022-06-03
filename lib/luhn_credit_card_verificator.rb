@@ -8,7 +8,6 @@ module LuhnCreditCardVerificator
 
   class Error < StandardError; end
 
-
   # Verify if numbers of a credit card are valid
   #
   # Example:
@@ -31,9 +30,9 @@ module LuhnCreditCardVerificator
         card_array_impair.push(number_to_push) if i%2 != 0;
         i = i +1
       }
-      sum_pair = card_array_pair.sum
-      sum_impair = card_array_impair.sum
-      result = Helper::check_card_validity(sum_pair, sum_impair);
+
+      sum = card_array_pair.sum + card_array_impair.sum
+      result = Helper::check_card_validity(sum);
       return result;
     rescue
       return false;
@@ -56,7 +55,6 @@ module LuhnCreditCardVerificator
     return BANK_TYPE::MASTERCARD if card[0..1].to_i.between?(BANK_NUMBER::MASTERCARD_NUMBER[0], BANK_NUMBER::MASTERCARD_NUMBER[4]);
     return BANK_TYPE::UNKNOWN;
   end
-
 
   # Verify if credit card numbers are valid and the issuing bank at the same time
   #

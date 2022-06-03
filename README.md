@@ -31,8 +31,6 @@ is_verif_card(credit_card_number)
 ```
 Example : 
 ```
-require 'luhn_credit_card_verificator';
-
 card_number_from_user = 6011000990139424
 result = LuhnCreditCardVerificator.is_verif_card(card_number_from_user);
 puts result
@@ -52,8 +50,6 @@ get_issuing_bank(credit_card_number)
 ```
 Example : 
 ```
-require 'luhn_credit_card_verificator';
-
 card_number_from_user = 4556737586899855
 result = LuhnCreditCardVerificator.get_issuing_bank(card_number_from_user);
 puts result
