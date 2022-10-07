@@ -65,11 +65,11 @@ __For the moment only this issuing bank are manage :__
 
 #### :three: Get the both (If credit card number are ok and issuing bank)
 
-```
+``` ruby
 get_all_credit_card_information(credit_card_number);
 ```
 Example :
-```
+``` ruby
 require 'luhn_credit_card_verificator';
 
 card_number_from_user = 4556737586899855
@@ -77,7 +77,7 @@ result = LuhnCreditCardVerificator.get_all_credit_card_information(card_number_f
 puts result
 
 >>  return {valid => true, "bank" => VISA} 
-```
+``` 
 __The return is a so a hash__: you've to manage the response to take the information thanks to the key/value.
 
 
