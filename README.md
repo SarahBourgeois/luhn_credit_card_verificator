@@ -26,16 +26,16 @@ If bundler is not being used to manage dependencies, install the gem by executin
 ----
 
 #### :one: Verify if the numbers of the credit card are ok
-```
+``` ruby
 is_verif_card(credit_card_number)
 ```
 Example : 
-```
+``` ruby
 card_number_from_user = 6011000990139424
 result = LuhnCreditCardVerificator.is_verif_card(card_number_from_user);
 puts result
 
->>  return true or false
+#  return true or false
 ```
 
 __If result is `True` so the card is OK.__
@@ -45,7 +45,7 @@ __If result is `False` so the card is WRONG__
 ---
 
 #### :two: Get the issuing bank information 
-```
+``` ruby
 get_issuing_bank(credit_card_number)
 ```
 Example : 
@@ -54,7 +54,7 @@ card_number_from_user = 4556737586899855
 result = LuhnCreditCardVerificator.get_issuing_bank(card_number_from_user);
 puts result
 
->>  return VISA 
+# return VISA 
 ```
 
 __For the moment only this issuing bank are manage :__
@@ -76,7 +76,7 @@ card_number_from_user = 4556737586899855
 result = LuhnCreditCardVerificator.get_all_credit_card_information(card_number_from_user);
 puts result
 
->>  return {valid => true, "bank" => VISA} 
+#  return {valid => true, "bank" => VISA} 
 ``` 
 __The return is a so a hash__: you've to manage the response to take the information thanks to the key/value.
 
